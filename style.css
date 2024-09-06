@@ -1,0 +1,76 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+}
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 20px;
+    margin: 2vw 3vw;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#search input{
+    padding: 10px 25px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    flex: 1;
+    margin: 30px 25px;
+}
+#search button{
+    padding:10px 13px ;
+    margin-right: 25px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#weather{
+    color: #fff;
+}
+.ri-cloud-fill{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-size:150px;
+}
+#weather h1,
+h2{
+    display: flex;
+    justify-content: center;
+}
+#weather h1{
+    font-size: 50px;
+}
+.sub_we{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+#humidity,
+#wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 50px;
+    padding-right: 10px;
+}
